@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap');
+
+* {
+    scrollbar-color: #2a2c2e #1c1e1f;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.administrator-panel {
+    width: 320px;
+    min-height: 100vh;
+    padding-bottom: 20px;
+
+    color: rgb(231, 230, 230);
+    font-family: 'Poppins', arial, sans-serif;
+    background-color: #354052;
+}
+
+.administrator-panel .line {
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.administrator-panel a#see-website {
+    width: 200px;
+    height: 35px;
+    margin: auto;
+    margin-top: 40px;
+
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+    background-color: rgb(55, 99, 129);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.administrator-panel a#see-website:hover {
+    background-color: rgb(45, 82, 107);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.administrator-panel a#see-website:active {
+    box-shadow: none
+}
+
+.dashboard-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+    background-color: #29313f;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-header a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard-header img {
+    width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.administrator-panel h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.categories {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.categories button {
+    width: 100%;
+    margin-left: 5px;
+    padding-right: 25px;
+    
+    color: white;
+    font: 400 16px 'Poppins', arial, sans-serif;
+    background: none;
+    border: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+
+    cursor: pointer;
+}
+
+.categories button.categoriesBtn {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.categories img {
+    width: 8px;
+    height: auto;
+}
+
+.categories h2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.categories.register h3 {
+    margin: 10px auto 10px 15px;
+
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.categories li {
+    margin: auto auto 15px 50px;
+
+    text-decoration: none;
+}
+
+.categories li:hover {
+    transform: translateX(7px);
+}
+
+.categories a {
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown.register {
+    display: none;
+    flex-direction: column;
+}

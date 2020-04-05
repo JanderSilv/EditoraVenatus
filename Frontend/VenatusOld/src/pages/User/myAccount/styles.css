@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600&display=swap');
+
+.myaccount-container {
+    width: 100%;
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-info {
+    margin-left: 120px;
+}
+
+.middle-content {
+    margin-left: 140px;
+    padding: 20px 30px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.middle-content.i2 {
+    margin-top: 40px;
+}
+
+.middle-content h2 {
+    font: 700 30px 'Poppins', arial, sans-serif;
+    color: rgb(58, 58, 58);
+}
+
+.middle-content p {
+    margin-top: 2px;
+    font: 300 18px 'Poppins', arial, sans-serif;
+}
+
+.middle-content .line {
+    width: 100%;
+    height: 1px;
+    margin: 20px 0px 0px;
+
+    background-color: black;
+    border-radius: 5px;
+}
+
+.middle-content h3 {
+    margin-top: 15px;
+    font: 600 24px 'Poppins', arial, sans-serif;
+    color: rgb(75, 75, 75);
+}
+
+.user-info {
+    width: 500px;
+    margin-top: 15px;
+    font: 600 24px 'Poppins', arial, sans-serif;
+}
+
+.user-info form {
+    margin-top: 15px;
+}
+
+.user-info form ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    
+}
+
+.middle-content.i2 .user-info form ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info form ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-content.i2 .user-info form ul li {
+    margin: 10px 20px 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info form ul li label {
+    margin-left: 5px;
+    font: 400 18px 'Poppins', arial, sans-serif;
+}
+
+.user-info form ul li input {
+    width: 240px;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 15px;
+
+    font: 300 20px 'Poppins', arial, sans-serif;
+
+    border-radius: 13px;
+}
+
+.user-info button {
+    width: 150px;
+    height: 40px;
+    margin: 60px auto 0px;
+    padding-top: 5px;
+
+    font: 300 18px 'Poppins', arial, sans-serif;
+    color: white;
+    background-color: rgb(75, 107, 175);
+    border: none;
+    border-radius: 20px;
+    
+    display: flex;
+    justify-content: center;
+    
+    cursor: pointer;
+}
+
+.user-info button:hover {
+    background-color: rgb(54, 77, 151);
+}
+
+.middle-content.i2 .user-info button {
+    background-color: rgb(192, 70, 70);
+}
+
+.middle-content.i2 .user-info button:hover {
+    background-color: rgb(151, 54, 54);
+}
+
+.myaccount-wrapper .putPopUp {
+    width: 400px;
+    height: 200px;
+    padding-top: 30px;
+
+    color: white;
+    background-color: rgba(68, 68, 68, 0.8);
+    border-radius: 10px;
+
+    text-align: center;
+    position: fixed;
+    top: 350px; left: 550px; right: 0px; bottom: 0px;
+
+    display: none;
+}
+
+.myaccount-wrapper .putPopUp h1 {
+    margin: 0px;
+    margin-top: 20px;
+
+    font: 500 20px 'Poppins', arial, sans-serif;
+}

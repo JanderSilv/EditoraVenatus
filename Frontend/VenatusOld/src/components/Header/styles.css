@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600&display=swap');
+
+/* Define o tamanho do Header */
+.main-header {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Div da logo */
+.header-logo {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Redimensiona a logo */
+.main-header .header-logo a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header a img {
+    width: 55%;
+    height: auto;
+    transition: all .2s;
+}
+
+.main-header a img:active {
+    transform: scale(1.02);
+}
+
+/* Div_Botão de Login/Logon */
+.header-login {
+    width: 180px;
+    height: 300px;
+    margin-top: 60px;
+
+    font-family: 'Poppins', Arial, sans-serif;
+
+    position: absolute;
+    top: 0px; left: 1130px; right: 0px; bottom: 0px;
+}
+
+/* Botão de Login/Logon */
+.header-login a {
+    text-decoration: none;
+    color: #535353;
+}
+
+.header-login a:hover {
+    text-decoration: underline;
+}
+
+.header-login button {
+    margin-left: 5px;
+
+    color: rgb(90, 90, 90);
+    border-radius: 20px;
+    border: none;
+    background: none;
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.header-login button:hover {
+    color: teal;
+}
+
+.header-login button p {
+    margin-right: 10px;
+
+    font-size: 20px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.header-login button img {
+    width: 17px;
+    height: 15px;
+}
+
+/* Menu do usuário */
+.header-login .account-dropdown {
+    position: absolute;
+    top: 40px; left: 0px; right: 0px; bottom: 0px;
+    display: none;
+}
+
+.header-login .account-dropdown a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-login .account-dropdown ul {
+    padding: 10px 10px;
+    list-style: none;
+    
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header-login .account-dropdown ul li {
+    margin-bottom: 10px;
+}
+
+.header-login .account-dropdown ul li #logoff {
+    margin: auto;
+    margin-top: 20px;
+    
+    color: #535353;
+    font: 400 20px 'Poppins', arial, sans-serif;
+    background: none;
+    border: none;
+
+    display: flex;
+    align-items: center;
+}
+
+.header-login .account-dropdown ul li #logoff:hover {
+    transform: scale(1.1);
+    color: rgb(41, 41, 41);
+}
+
+.header-login .account-dropdown ul li #logoff img {
+    width: 26%;
+    height: auto;
+    margin-left: 1px;
+}
+
+/* Div da linha */
+.header-line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu-container {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 70px;
+}
+
+.menu-navbar {
+    max-width: 55%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-navbar .item a {
+    font-family: 'Quicksand', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #535151;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-navbar .item a:hover {
+    color: #309AAC;
+}
